@@ -132,7 +132,7 @@ export default function BillModal({ patient, mode = 'billing', onClose, onSave }
         {/* Header */}
         <div id="billprint-header">
           <div className="billprint-brand">
-            <img src="/src/pages/logo.png" alt="Aabha Trusted Gynaecology Care logo" />
+            <img src="/src/pages/images/logo.png" alt="Aabha Trusted Gynaecology Care logo" />
             <div>
               <h3>Aabha Trusted Gynaecology Care</h3>
               <p>Gynaecology • Fertility • Menopause</p>
