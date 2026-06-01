@@ -1,0 +1,1 @@
+import{r as t}from"./index-ByHjpijU.js";function f(e,s=5e3){const r=t.useRef(e);t.useEffect(()=>{r.current=e},[e]),t.useEffect(()=>{r.current();const u=setInterval(()=>r.current(),s);return()=>clearInterval(u)},[s])}export{f as u};
