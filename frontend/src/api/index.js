@@ -4,7 +4,7 @@ const isBrowser = typeof window !== 'undefined'
 const isLocalHost = isBrowser && ['localhost', '127.0.0.1'].includes(window.location.hostname)
 
 // Use a stable local backend URL to avoid accidental HTTPS upgrades on localhost.
-const apiBaseURL = import.meta.env.VITE_API_BASE_URL || (isLocalHost ? 'http://127.0.0.1:5000/api' : '/api')
+const apiBaseURL = import.meta.env.VITE_API_BASE_URL || (isLocalHost ? 'Value:https://aabha-clinic.onrender.com/api' : '/api')
 
 const api = axios.create({
   baseURL: apiBaseURL,
